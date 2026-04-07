@@ -1,12 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>楊子頡的網站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>楊子頡的個人自傳</title>
+    <style>
+        /* 簡單的樣式讓網頁更有質感 */
+        body {
+            font-family: "Microsoft JhengHei", Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-left: 5px solid #2c3e50;
+            padding-left: 10px;
+            color: #2c3e50;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .info-table td {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
 </head>
 <body>
-    <h1>你好，我是楊子頡</h1>
-    <p>勤益科大 智慧自動化系</p>
-    <p>這是我的個人網站</p>
+
+    <header>
+        <h1>楊子頡 (Yang, Zi-Jie)</h1>
+        <p>國立勤益科技大學 | 智慧自動化工程系</p>
+    </header>
+
+    <section id="about">
+        <h2>關於我</h2>
+        <p>
+            你好！我是楊子頡，目前就讀於勤益科大智慧自動化系。我對自動化技術與數據處理充滿熱情，
+            致力於將工程邏輯應用於實際問題中。在學期間，我除了專注於課業，也積極探索程式開發與系統整合的可能性。
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>教育背景</h2>
+        <table class="info-table">
+            <tr>
+                <td><strong>學校名稱</strong></td>
+                <td>國立勤益科技大學</td>
+            </tr>
+            <tr>
+                <td><strong>就讀科系</strong></td>
+                <td>智慧自動化工程系</td>
+            </tr>
+            <tr>
+                <td><strong>主修領域</strong></td>
+                <td>自動化控制、機器人整合、數據分析</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="skills">
+        <h2>專業技能</h2>
+        <ul>
+            <li><strong>自動化：</strong> PLC 程式設計、控制系統整合</li>
+            <li><strong>程式開發：</strong> Python 數據處理、GitHub 版本控制</li>
+            <li><strong>文書應用：</strong> 進階 Excel/CSV 數據整合與自動化排程</li>
+        </ul>
+    </section>
+
+    <section id="autobiography">
+        <h2>自傳簡述</h2>
+        <p>
+            <strong>【成長背景與求學態度】</strong><br>
+            在勤益科大的學習環境中，我磨練了嚴謹的邏輯思考能力。智慧自動化是一個跨領域的學科，
+            這讓我學會如何從不同維度思考問題，並尋找最有效率的解決方案。
+        </p>
+        <p>
+            <strong>【實作經驗】</strong><br>
+            我喜歡動手實作，無論是硬體的電路組裝還是軟體的程式撰寫，我都能夠沉浸其中。
+            目前我正積極練習利用 GitHub 管理專案，並嘗試開發能優化日常工作流程的小工具。
+        </p>
+        <p>
+            <strong>【未來展望】</strong><br>
+            未來我希望能在智慧製造或軟體開發領域發揮所長，持續精進技術，為產業轉型貢獻一份力量。
+        </p>
+    </section>
+
+    <footer style="text-align: center; color: #888; font-size: 0.8em;">
+        <p>© 2026 楊子頡. Built with GitHub Pages & Passion.</p>
+    </footer>
+
 </body>
 </html>
