@@ -159,7 +159,63 @@
             我期許自己能成為一名理論與實務兼具的工程師。在未來，我將持續精進 AI 應用與自動化設備的連結技術，為台灣的智慧工業發展貢獻一己之力。
         </div>
     </section>
+<section id="contact">
+        <h2>聯絡方式</h2>
+        <style>
+            .contact-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 15px;
+            }
+            .contact-item {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                background: #f0f4f8;
+                border-radius: 8px;
+                text-decoration: none;
+                color: var(--primary-color);
+                transition: transform 0.2s;
+            }
+            .contact-item:hover {
+                transform: translateY(-3px);
+                background: #e1e9f0;
+            }
+            .contact-icon {
+                font-weight: bold;
+                margin-right: 12px;
+                width: 25px;
+                text-align: center;
+            }
+        </style>
 
+        <div class="contact-grid">
+            <a href="mailto:你的Email@gmail.com" class="contact-item">
+                <span class="contact-icon">✉</span>
+                <span>你的Email@gmail.com</span>
+            </a>
+            
+            <a href="tel:0900000000" class="contact-item">
+                <span class="contact-icon">📞</span>
+                <span>0900-000-000</span>
+            </a>
+
+            <div class="contact-item">
+                <span class="contact-icon">L</span>
+                <span>Line ID: 你的ID</span>
+            </div>
+
+            <a href="https://instagram.com/你的帳號" target="_blank" class="contact-item">
+                <span class="contact-icon">📸</span>
+                <span>Instagram</span>
+            </a>
+
+            <a href="https://facebook.com/你的名字" target="_blank" class="contact-item">
+                <span class="contact-icon">f</span>
+                <span>Facebook</span>
+            </a>
+        </div>
+    </section>
     <footer>
         <p>© 2026 Zi-Jie Yang | Hosted on GitHub Pages</p>
     </footer>
